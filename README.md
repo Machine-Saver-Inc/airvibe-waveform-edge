@@ -1,4 +1,23 @@
 # AirVibe_Waveform_Edge
+
+<!-- machine-saver-scope:start -->
+## Scope
+
+Existing AirVibe waveform edge-service implementation: API, MQTT broker and deployment configuration for its application.
+
+**Owner:** Machine-Saver-Inc. **Development area:** Applications and documentation.
+
+## Ownership boundaries
+
+This application-specific runtime is distinct from the platform fleet stack. Any consolidation requires an explicit migration plan and compatibility evidence.
+
+## Development tracking
+
+Track work in this repository's issues and pull requests. Cross-repository work is coordinated through the [Machine Saver development Projects](https://github.com/orgs/Machine-Saver-Inc/projects).
+
+Follow this repository's contribution instructions and preserve links to related product issues. Scope describes responsibility; release and deployment readiness require the repository's own evidence.
+<!-- machine-saver-scope:end -->
+
 **Edge runtime for AirVibe time-waveform ingestion**: MQTT broker (Mosquitto), TWAB API (segment assembly + downlinks), TLS/mTLS, and CI/CD. Pairs with the UI repo: [`AirVibe_Waveform_React`](https://github.com/Machine-Saver-Inc/AirVibe_Waveform_React).
 
 * **UI →** GitHub Pages at `ui.<domain>` (protected by Cloudflare Access)
